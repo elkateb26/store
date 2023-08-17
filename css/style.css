@@ -39,7 +39,7 @@ button {
 
 
 header{
-  background-color: #310288 !important;
+  
   .navbar{
     top: 0 !important;
     .container-fluid{
@@ -95,12 +95,13 @@ header{
   }
   /* start home */
 .home{
-  background: linear-gradient(rgba(46, 45, 45, 0.6),rgba(0 0 0 /0.6)) , url('../assets/img/762-1.jpg');
+
   background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
-  min-height:610px;;
-  display: flex;
-  align-items:flex-end;
+height:auto ;
+
   
   position: relative;
 }
