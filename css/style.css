@@ -29,6 +29,11 @@ ul {
   margin: 0;
   padding: 0;
 }
+li {
+  list-style: none;
+  
+
+}
 
 button {
   border: none;
@@ -447,8 +452,8 @@ footer{
   display: none;
 }
 #innerBox {
-  width: 50%;
-  height: 500px;
+  width: 85%;
+  height: 300px;
   background-image: url(../imga/portfolio-1.jpg);
   background-size: cover;
   padding: 10px;
